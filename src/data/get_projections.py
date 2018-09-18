@@ -22,6 +22,6 @@ client = pyswagger.contrib.client.requests.Client(auth)
 req, resp = app.op['ProjectedFantasyDefenseGameStatsWDfsSalaries'](format='JSON', season='2015REG', week='1')
 defense_stats = client.request((req, resp)).data
 
-pprint.pprint(defense_stats)
+defense_stats.
 
 pd.DataFrame(defense_stats)
